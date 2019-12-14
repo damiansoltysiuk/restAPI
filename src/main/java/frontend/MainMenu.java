@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class MainMenu {
     public static void menu() {
-        System.out.println("Please select action:\n1. Download userList\n2. Show info userID\n3. Add user\n4. Update user\n5. Delete user\n6. Exit");
+        System.out.println("Please select action:\n1. Download userList\n2. Show info userID\n" +
+                           "3. Add user\n4. Update user\n5. Delete user\n6. Exit");
     }
 
     public static String chooseMenu() {
